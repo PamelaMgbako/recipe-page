@@ -1,0 +1,129 @@
+/** ---- General Page Styles ---- **/
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, serif;
+  background-color: #fef1e2;
+  color: #4a3221;
+  margin: 0;
+  padding: 0;
+}
+
+/**---- Header ---- **/
+header {
+  background-color: #7e3508;
+  color: whitesmoke;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header h4 {
+  font-style: italic;
+  color: #e9b682;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+/** ---- Main Content Wrapper ---- **/
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px 50px;
+}
+
+
+/** ---- Section Headings ---- **/
+h2 {
+  color: #7a2d00;
+  border-bottom: 2px solid #7a2d00;
+  padding-bottom: 6px;
+  margin-top: 40px;
+}
+
+/** ---- Recipe Details Box ---- **/
+section {
+  background-color: #fdecd8;
+  border: 1px solid #e8b88a;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+/* ---- Recipe Image ---- */
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 3px solid #7a2d00;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+/* ---- Lists ---- */
+ul {
+  padding-left: 20px;
+  line-height: 2;
+}
+
+ol {
+  padding-left: 20px;
+  line-height: 2;
+}
+
+li {
+  border-bottom: 1px dashed #e0c0a0;
+  padding: 4px 0;
+}
+
+/* ---- Nutrition Table ---- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th {
+  background-color: #7a2d00;
+  color: white;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+td {
+  padding: 9px 14px;
+  border-bottom: 1px solid #e0c8b0;
+}
+
+tr:nth-child(even) {
+  background-color: #fdecd8;
+}
+
+/* ---- Flexbox Layout for Recipe Details ---- */
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.details p {
+  flex: 1 1 200px;
+  max-width: 250px;
+  background-color: white;
+  border: 1px solid #e8b88a;
+  border-radius: 6px;
+  padding: 10px 14px;
+  text-align: center;
+  font-weight: bold;
+}
+/* ---- Hover Effect ---- */
+li:hover {
+  background-color: #fdecd8;
+  padding-left: 10px;
+  transition: all 0.3s ease;
+}
